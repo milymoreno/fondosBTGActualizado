@@ -1,0 +1,35 @@
+/* Estilos para el formulario */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Estilos para los campos del formulario */
+  form div {
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para el botón */
+  button {
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el mensaje de confirmación */
+  .success-message {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #d4edda; /* Color de fondo verde claro */
+    color: #155724; /* Color de texto verde oscuro */
+    border: 1px solid #c3e6cb; /* Borde verde claro */
+    border-radius: 5px;
+  }
+  

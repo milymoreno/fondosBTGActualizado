@@ -1,0 +1,30 @@
+/*import { Component } from '@angular/core';
+import { NgModule } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+  title = 'Administrar Fondos';
+}*/
+
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms'; // Importa FormsModule aquí
+
+
+
+@NgModule({
+  declarations: [
+    
+  ],
+  imports: [
+    BrowserModule,
+    FormsModule // Añade FormsModule a la lista de imports
+  ],
+  providers: [],
+ 
+})
+export class AppModule { }
